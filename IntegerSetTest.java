@@ -30,6 +30,18 @@ public class IntegerSetTest {
         if (a.contains(50) ) {
              System.out.println("Pass");
         } else {
-          System.out.println("Fail");  }
+          System.out.println("Fail");  
+        }
+
+         // Test 4: ลองเพิ่มแบบตัวเดียว
+        a.add(90);
+      
+        String Test4 = "[50, 80, 90]";
+        if (a.toString().equals(Test4)) {
+            System.out.println("Pass");
+        }else{
+        
+            System.out.println("Fail");
+        }
     }
 }

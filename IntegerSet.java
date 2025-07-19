@@ -8,6 +8,7 @@ public class IntegerSet {
      // Rep Invariant (RI):
     //  - Number ห้ามเป็น null
     //  - Number ห้ามซ้ำกัน
+    //  - ใน set ต้องเรียงเลขจากน้อยไปหามาก
    
     // Abstraction Function (AF):
     //  - AF(Number) = the set of Integer in the Integer Number

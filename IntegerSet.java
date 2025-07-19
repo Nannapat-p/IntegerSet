@@ -19,7 +19,7 @@ public class IntegerSet {
 
     /**
      * ตรวจสอบว่า Number เป็น  Null ไหม 
-     * ตรวจสอบว่า Set ใน Number เรียงจากมากไปน้อยไหม
+     * ตรวจสอบว่า Set ใน Number เรียงจากน้อยไปมากไหม
      */
 
     private void CheckRep(){
@@ -39,7 +39,10 @@ public class IntegerSet {
      
     }
 
-
+    /**
+     * เพิ่มตัวเลขเข้าเซต
+     * @param x ตัวอักษรที่ต้องการเพิ่ม
+     */
     public void add(Integer x ){
         Number.add(x);
         CheckRep();
